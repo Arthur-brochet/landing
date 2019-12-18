@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Source+Sans+Pro&display=swap")
+
+body{
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px 
+
+}
+
+body {
+	background-color: rgba(215, 225, 230);
+}
+
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+}
+
+#menu {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background: rgb(3, 27, 107);
+	border-radius: 5px;
+
+
+}
+
+#menu ul {
+	float: left;
+	padding-top:   20px;
+
+}
+
+#menu ul li{
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 190px;
+
+}
+
+#menu a {
+	text-decoration: none;
+	color: rgb(208, 211, 212);
+	font-size: 25px;
+
+
+
+}
+
+#menu a:hover {
+	color: black;
+	
+}
+
+#menu ul li a {
+	background-color: rgb(15, 41, 125);
+	display: inline-block;
+	width: 200px;
+
+}
+
+
+
+
+#presentation {
+	background: gainsboro 
+	padding: 35px;
+	border-radius: 20px;
+	box-shadow:  50px 20px 30px rgba(0, 0, 0, 0.3);
+	width: 1000px;
+	margin: 35px auto;
+	background-color: white;
+}
+
+
+
+#presentation img {
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 300px;
+	padding: 15px;
+
+}
+
+
+
+#presentation p {
+	text-align: center;
+	padding: 15px;
+}
+
+#qui {
+	padding: 35px;
+	border-radius: 20px;
+	box-shadow:  50px 20px 30px rgba(0, 0, 0, 0.3);
+	width: 1000px;
+	margin: 35px auto;
+	background-color: white;
+}
+
+
+
+#logo {
+	width: 200px;
+	display: block;
+	border-radius: 15px;
+	margin-bottom: 30px
+}
+
+
+
+#suivre {
+	padding: 35px;
+	border-radius: 20px;
+	box-shadow:  50px 20px 30px rgba(0, 0, 0, 0.3);
+	width: 1000px;
+	margin: 35px auto;
+	display: flex;
+	align-items: center;
+	background-color: white;
+}
+
+
+
+#suivre p {
+	padding: 30px
+}
+
+#suivre a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 23px;
+}
+
+#suivre a:hover {
+	color: blue;
+}
+
+
+
+.card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.3);
+  margin: 50px ;
+}
+.card img {
+  width: 150px;
+}
+.card a {
+  text-decoration: none;
+	color: black
+}
+
+.card a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.card h2 {
+	padding: 30px
+}
+
